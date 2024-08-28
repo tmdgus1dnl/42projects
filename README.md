@@ -1,4 +1,4 @@
-## 42 프로젝트 모음
+## 42 프로젝트 모음                   notion 기술 노트 : [Notion page](https://letsgetitboi.notion.site/42-2c2aa02c94ba4b928a6c976f1b2bfc70)
 |      Project     |Score | Retry | Took |    Note    |       With      | Language |
 |:----------------:|:----:|:-----:|:----:|:----------:|:---------------:|:-:|
 |       libft      | 125% |   4   |  2w  |  lib func  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
