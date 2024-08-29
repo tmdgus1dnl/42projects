@@ -1,6 +1,6 @@
 ## 42 프로젝트 모음
 기술 노트 : [42과제 기록들(notion)](https://letsgetitboi.notion.site/42-2c2aa02c94ba4b928a6c976f1b2bfc70)
-기술 노트 : [42과제 기록들(notion)] <a href="https://letsgetitboi.notion.site/42-2c2aa02c94ba4b928a6c976f1b2bfc70" target="_blank"> </a>
+기술 노트 : <a href="https://letsgetitboi.notion.site/42-2c2aa02c94ba4b928a6c976f1b2bfc70" target="_blank">새탭</a>
 |      Project     |Score | Retry | Took |    Note    |       With      | Language |
 |:----------------:|:----:|:-----:|:----:|:----------:|:---------------:|:-:|
 |       libft      | 125% |   4   |  2w  |  lib func  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
