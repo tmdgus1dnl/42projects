@@ -12,8 +12,8 @@
 |   philosophers   | 100% |   1   |  3w  |      OS    |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |     minishell    | 100% |   1   |  2M  | parse, hard|     jeshin      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |     cub3d        | 100% |   2   |  1w  |raycasting  |     jeshin      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|  CPP Modules/00  | 100% |   2   |  2d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|  CPP Modules/01  | 100% |   0   |  1d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/00  | 100% |   2   |  2d  |    basic   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/01  | 100% |   0   |  1d  |  reference |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/02  | 100% |   1   |  5d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/03  | 100% |   1   |  8d  |inheritance |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/04  | 100% |   1   | 10h  |   virtual  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
