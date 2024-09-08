@@ -17,7 +17,7 @@
 |  CPP Modules/02  | 100% |   1   |  4d  | overloading|                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/03  | 100% |   1   |  3d  |inheritance |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/04  | 100% |   1   |  3d  |   virtual  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|  CPP Modules/05  | 100% |   1   | 14h  |  exception |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/05  | 100% |   1   | 3d   |  exception |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/06  | 100% |   1   |  3h  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/07  | 100% |   1   |  4h  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/08  | 100% |   1   | 11h  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
