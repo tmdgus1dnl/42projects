@@ -6,7 +6,7 @@
 /*   By: seunghan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 13:09:32 by seunghan          #+#    #+#             */
-/*   Updated: 2024/10/01 18:55:08 by seunghan         ###   ########.fr       */
+/*   Updated: 2024/10/02 11:12:15 by seunghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ class BitcoinExchange
 		std::ifstream database;
 
 	public :
-		typedef std::map<int, double>::iterator map_iter;
+		typedef std::map<int, double>::const_iterator map_iter;
 		BitcoinExchange();
 		~BitcoinExchange();
 		BitcoinExchange(const BitcoinExchange& other);
@@ -42,9 +42,9 @@ class BitcoinExchange
 		void insertData(std::ifstream& database);
 		void parseFirstInput(const std::string& line) const;
 		void parseInput(const std::string& date, const std::string& amount_str) const;
-		void printExchangedBTC(const std::string& date, const std::string& amount_str);
-		void exchangeBTC(const std::string& input_filename);
-		map_iter getClosestDate(const std::string& date);
+		void printExchangedBTC(const std::string& date, const std::string& amount_str) const;
+		void exchangeBTC(const std::string& input_filename) const;
+		map_iter getClosestDate(const std::string& date) const;
 		int dateToInt(const std::string& date) const;
 		void printData();
 };

@@ -6,7 +6,7 @@
 /*   By: seunghan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 13:09:16 by seunghan          #+#    #+#             */
-/*   Updated: 2024/10/01 19:15:50 by seunghan         ###   ########.fr       */
+/*   Updated: 2024/10/02 11:12:25 by seunghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -164,7 +164,7 @@ void BitcoinExchange::parseInput(const std::string& date,
 		throw std::invalid_argument("Error: too large a number.");
 }
 
-void BitcoinExchange::exchangeBTC(const std::string& input_filename)
+void BitcoinExchange::exchangeBTC(const std::string& input_filename) const
 {
 	std::ifstream input(input_filename.c_str());
 
@@ -202,7 +202,7 @@ void BitcoinExchange::exchangeBTC(const std::string& input_filename)
 }
 
 void BitcoinExchange::printExchangedBTC(const std::string& date, 
-		const std::string& amount_str)
+		const std::string& amount_str) const
 {
 	double amount_double;
 	char* ptr;
@@ -214,7 +214,7 @@ void BitcoinExchange::printExchangedBTC(const std::string& date,
 		<< std::setprecision(10) << (it->second) * amount_double << std::endl;
 }
 
-BitcoinExchange::map_iter BitcoinExchange::getClosestDate(const std::string& date)
+BitcoinExchange::map_iter BitcoinExchange::getClosestDate(const std::string& date) const
 {
 	int date_int;
 
