@@ -6,7 +6,7 @@
 /*   By: seunghan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 13:17:03 by seunghan          #+#    #+#             */
-/*   Updated: 2024/10/01 18:55:09 by seunghan         ###   ########.fr       */
+/*   Updated: 2024/10/02 11:29:06 by seunghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,6 @@ int main(int argc, char** argv)
 		std::cout << e.what() << std::endl;
 		return (1);
 	}
+
+	return (0);
 }
