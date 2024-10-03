@@ -6,7 +6,7 @@
 /*   By: seunghan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 11:26:22 by seunghan          #+#    #+#             */
-/*   Updated: 2024/10/03 15:38:16 by seunghan         ###   ########.fr       */
+/*   Updated: 2024/10/03 16:14:45 by seunghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -126,7 +126,7 @@ void RPN::operate()
 
 void RPN::doOper(char oper)
 {
-	int left, right, result;
+	long long left, right, result;
 
 	right = numstack.top();
 	numstack.pop();
@@ -151,7 +151,10 @@ void RPN::doOper(char oper)
 			result = left / right;
 	}
 
-	numstack.push(result);
+	if (result > 2147483647 || result < -2147483648)
+		throw std::runtime_error("Error");
+
+	numstack.push(static_cast<int>(result));
 }
 
 bool RPN::isOper(char ch) const
