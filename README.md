@@ -10,7 +10,7 @@
 |       fdf        | 125% |   2   |  1M  | isometric  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |      minitalk    | 125% |   1   |  5d  |  signal    |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   philosophers   | 125% |   4   |  3w  | parallelism|                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|     minishell    | 100% |   1   |  2M  | parse, hard|     jeshin      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|     minishell    | 100% |   2   |  2M  | parse, hard|     jeshin      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |     cub3d        | 100% |   2   |  1w  |raycasting  |     jeshin      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |  CPP Modules/00  | 100% |   0   |  2d  |    basic   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/01  | 100% |   1   |  1d  |  reference |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
