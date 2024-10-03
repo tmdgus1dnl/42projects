@@ -6,7 +6,7 @@
 /*   By: seunghan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 11:26:22 by seunghan          #+#    #+#             */
-/*   Updated: 2024/10/03 12:29:44 by seunghan         ###   ########.fr       */
+/*   Updated: 2024/10/03 15:38:16 by seunghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -146,6 +146,8 @@ void RPN::doOper(char oper)
 			result = left * right;
 			break ;
 		case '/':
+			if (right == 0)
+				throw std::invalid_argument("Error");
 			result = left / right;
 	}
 
