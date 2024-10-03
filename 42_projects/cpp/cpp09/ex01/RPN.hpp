@@ -6,7 +6,7 @@
 /*   By: seunghan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 11:26:06 by seunghan          #+#    #+#             */
-/*   Updated: 2024/10/02 18:40:47 by seunghan         ###   ########.fr       */
+/*   Updated: 2024/10/03 12:29:04 by seunghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ class RPN
 		RPN(const std::string& expression);
 		RPN(const RPN& other);
 		RPN& operator=(const RPN& other);
+		~RPN();
 		void parseExpression(const std::string& expression) const;
 		void chkSpace(const std::string& expression) const;
 		void chkExpressionValid(const std::string& expression) const;

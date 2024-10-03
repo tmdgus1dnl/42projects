@@ -6,7 +6,7 @@
 /*   By: seunghan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 11:26:22 by seunghan          #+#    #+#             */
-/*   Updated: 2024/10/02 18:40:34 by seunghan         ###   ########.fr       */
+/*   Updated: 2024/10/03 12:29:44 by seunghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,8 @@ RPN& RPN::operator=(const RPN& other)
 	}
 	return (*this);
 }
+
+RPN::~RPN() {}
 
 void RPN::parseExpression(const std::string& expression) const
 {
