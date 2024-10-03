@@ -6,7 +6,7 @@
 /*   By: seunghan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 13:09:16 by seunghan          #+#    #+#             */
-/*   Updated: 2024/10/02 11:12:25 by seunghan         ###   ########.fr       */
+/*   Updated: 2024/10/03 13:48:27 by seunghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ BitcoinExchange& BitcoinExchange::operator=(const BitcoinExchange& other)
 
 const std::map<int, double>& BitcoinExchange::getMap() const
 {
-	return (BTC_price);
+	return (this->BTC_price);
 }
 
 void BitcoinExchange::parseFirstData(const std::string& line) const
@@ -66,7 +66,7 @@ void BitcoinExchange::parseData(const std::string& date,
 		throw std::invalid_argument("Error: database format is incorrect");
 
 	price_double = std::strtod(price_str.c_str(), &ptr);
-	if (*ptr || ptr == price_str.c_str() || price_double < 0 || std::isinf(price_double))
+	if (*ptr || ptr == price_str.c_str() || price_double < 0 || price_double > 10000000)
 		throw std::invalid_argument("Error: database format is incorrect");
 
 	std::istringstream date_split(date);
@@ -160,7 +160,7 @@ void BitcoinExchange::parseInput(const std::string& date,
 
 	if (amount_double < 0)
 		throw std::invalid_argument("Error: not a positive number.");
-	if (amount_double > 2147483647)
+	if (amount_double > 22000000)
 		throw std::invalid_argument("Error: too large a number.");
 }
 
@@ -245,7 +245,7 @@ int BitcoinExchange::dateToInt(const std::string& date) const
 	return (year * 10000 + month * 100 + day);
 }	
 
-void BitcoinExchange::printData()
+void BitcoinExchange::printData() const
 {
 	for (map_iter it = BTC_price.begin(); it != BTC_price.end(); ++it)
 		std::cout << "Date : " << it->first << ", price : " 

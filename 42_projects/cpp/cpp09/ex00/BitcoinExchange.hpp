@@ -6,7 +6,7 @@
 /*   By: seunghan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 13:09:32 by seunghan          #+#    #+#             */
-/*   Updated: 2024/10/02 11:12:15 by seunghan         ###   ########.fr       */
+/*   Updated: 2024/10/03 13:48:32 by seunghan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,5 +46,5 @@ class BitcoinExchange
 		void exchangeBTC(const std::string& input_filename) const;
 		map_iter getClosestDate(const std::string& date) const;
 		int dateToInt(const std::string& date) const;
-		void printData();
+		void printData() const;
 };
