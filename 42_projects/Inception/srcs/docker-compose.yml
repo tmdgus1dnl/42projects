@@ -1,0 +1,38 @@
+version: '3.9'
+
+volumes: data: {}
+
+services:
+    mariadb:
+        build:
+            context: ./mariadb
+        restart: always
+        expose:
+            - "3306"
+        networks:
+            - intra
+
+    nginx:
+        build:
+            context: ./nginx
+        restart: always
+        volumes:
+            - data:/var/www/html
+        ports:
+            - "443:443"
+        networks:
+            - intra
+    wordpress:
+        build:
+            context: ./wordpress
+        restart: always
+        volumes:
+            - data:/var/lib/mysql
+        expose:
+            - "9000"
+        networks:
+            - intra
+
+networks:
+    intra:
+        driver: bridge
