@@ -1,12 +1,14 @@
-version: '3.9'
-
-volumes: data: {}
+version: '3.8'
 
 services:
     mariadb:
         build:
             context: ./mariadb
+        container_name: mariadb
         restart: always
+	env_file: .env
+        volumes:
+            - /home/seunghan/data/var/lib/mysql:/var/lib/mysql:rw
         expose:
             - "3306"
         networks:
@@ -15,9 +17,10 @@ services:
     nginx:
         build:
             context: ./nginx
+        container_name: nginx
         restart: always
         volumes:
-            - data:/var/www/html
+            - /home/seunghan/data/var/www/html:/var/www/html:rw
         ports:
             - "443:443"
         networks:
@@ -25,9 +28,11 @@ services:
     wordpress:
         build:
             context: ./wordpress
+        container_name: wordpress
         restart: always
+	env_file: .env
         volumes:
-            - data:/var/lib/mysql
+            - /home/seunghan/data/var/www/html:/var/www/html:rw
         expose:
             - "9000"
         networks:
