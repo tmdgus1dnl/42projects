@@ -4,7 +4,7 @@
 |:----------------:|:----:|:-----:|:----:|:----------:|:---------------:|:-:|
 |       libft      | 125% |   4   |  2w  |  lib func  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   get_next_line  | 125% |   1   |  2w  | fd, list   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|   born2beroot    | 125% |   0   |  1w  |VM, server  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> |
+|   born2beroot    | 125% |   0   |  1w  |    VM      |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> |
 |     ft_printf    | 100% |   0   |  3d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |    push_swap     | 125% |   2   |  3w  | stack sort |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |       fdf        | 125% |   2   |  1M  | isometric  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
