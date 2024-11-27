@@ -4,7 +4,7 @@ RUN apt-get update -y && \
     apt-get upgrade -y && \
     apt-get -y install \
     mariadb-client \
-    php8.2 \
+    php7.4 \
     php-fpm \
     php-cli \
     wget \
@@ -14,20 +14,29 @@ RUN apt-get update -y && \
     php-xml \
     sendmail
 
-RUN wget https://wordpress.org/latest.tar.gz && \
+RUN mkdir -p /var/www/html && \
+    chown -R www-data:www-data /var/www/html && \
+    wget https://wordpress.org/latest.tar.gz && \
     tar -xvf latest.tar.gz && \
-    mv /wordpress/* /var/www/html/ && \
-    chown -R www-data:www-data /var/www/html && \ 
-    rm -r /wordpress latest.tar.gz
+    mv wordpress/* /var/www/html/ && \
+    chown -R www-data:www-data /var/www/html
+    rm -rf wordpress latest.tar.gz
+
+ARG MYSQL_DATABASE
+ARG MYSQL_USER
+ARG MYSQL_PASSWORD
+ARG MYSQL_HOST
 
 RUN mv /var/www/html/wp-config-sample.php /var/www/html/wp-config.php && \
+    mkdir -p /run/php && chown -R www-data:www-data /run/php && \
+    sed -i 's/^pid =.*/pid = \/run\/php\/php7.4-fpm.pid/' /etc/php/7.4/fpm/php-fpm.conf && \
     sed -i "s/database_name_here/${MYSQL_DATABASE}/" /var/www/html/wp-config.php && \
     sed -i "s/username_here/${MYSQL_USER}/" /var/www/html/wp-config.php && \
     sed -i "s/password_here/${MYSQL_PASSWORD}/" /var/www/html/wp-config.php && \
     sed -i "s/localhost/${MYSQL_HOST}/" /var/www/html/wp-config.php && \
-    sed -i "s/^listen = .*/listen = 0.0.0.0:9000/" /etc/php/8.2/fpm/pool.d/www.conf && \
-    sed -i "s/;clear_env = yes/clear_env = no/" /etc/php/8.2/fpm/pool.d/www.conf
+    sed -i "s/^listen = .*/listen = 0.0.0.0:9000/" /etc/php/7.4/fpm/pool.d/www.conf && \
+    sed -i "s/;clear_env = yes/clear_env = no/" /etc/php/7.4/fpm/pool.d/www.conf
 
 EXPOSE 9000
 
-CMD ["php-fpm8.2", "-F"]
+ENTRYPOINT ["php-fpm7.4", "--nodaemonize"]
