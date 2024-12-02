@@ -4,7 +4,7 @@ services:
     build:
       context: ./requirements/mariadb
     container_name: mariadb
-    restart: no
+    restart: always
     env_file: .env
     volumes:
       - /home/seunghan/data/var/lib/mysql:/var/lib/mysql:rw
@@ -17,7 +17,7 @@ services:
     build:
       context: ./requirements/nginx
     container_name: nginx
-    restart: no
+    restart: always
     volumes:
       - /home/seunghan/data/var/www/html:/var/www/html:rw
     ports:
@@ -29,7 +29,7 @@ services:
     build:
       context: ./requirements/wordpress
     container_name: wordpress
-    restart: no
+    restart: always
     env_file: .env
     volumes:
       - /home/seunghan/data/var/www/html:/var/www/html:rw
