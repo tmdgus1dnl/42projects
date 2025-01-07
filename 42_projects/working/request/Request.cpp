@@ -177,12 +177,13 @@ string Request::getBody() const
 {
 	return (_body);
 }
-string getErrorMessage() const
+
+string Request::getErrorMessage() const
 {
 	return (_errorMessage);
 }
 
-string getErrorCode() const
+string Request::getErrorCode() const
 {
 	return (_errorCode);
 }
