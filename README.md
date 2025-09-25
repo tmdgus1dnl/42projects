@@ -12,10 +12,10 @@
 |   philosophers   | 125% |   4   |  3w  | parallelism|                 | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
 |     minishell    | 100% |   2   |  2M  |shell, parse|     jeshin      | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
 |     cub3d        | 100% |   2   |  1w  |raycasting  |     jeshin      | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
-|  CPP Modules/00  | 100% |   0   |  2d  |    basic   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|  CPP Modules/01  | 100% |   1   |  1d  |  reference |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|  CPP Modules/02  | 100% |   1   |  4d  | overloading|                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|  CPP Modules/03  | 100% |   2   |  3d  |inheritance |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/00  | 100% |   0   |  2d  |    basic   |                 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/01  | 100% |   1   |  1d  |  reference |                 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/02  | 100% |   1   |  4d  | overloading|                 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/03  | 100% |   2   |  3d  |inheritance |                 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/04  | 100% |   1   |  3d  |   virtual  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/05  | 100% |   0   | 2d   |  exception |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/06  | 100% |   0   |  1d  |     cast   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
