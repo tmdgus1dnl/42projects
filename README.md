@@ -4,7 +4,7 @@
 |:----------------:|:----:|:-----:|:----:|:----------:|:---------------:|:-:|
 |       libft      | 125% |   4   |  2w  |  lib func  |                 | <img src="https://devicon-website.vercel.app/api/c/plain.svg" alt="c" width="40" height="40"/> |
 |   get_next_line  | 125% |   1   |  2w  | fd, list   |                 | <img src="https://devicon-website.vercel.app/api/c/plain.svg" alt="c" width="40" height="40"/> |
-|   born2beroot    | 125% |   0   |  1w  |    VM      |                 | <img src="https://devicon-website.vercel.app/api/c/plain.svg" alt="c" width="40" height="40"/> |
+|   born2beroot    | 125% |   0   |  1w  |    VM      |                 | <img src="https://devicon-website.vercel.app/api/linux/original.svg" alt="c" width="40" height="40"/> |
 |     ft_printf    | 100% |   0   |  3d  |            |                 | <img src="https://devicon-website.vercel.app/api/c/plain.svg" alt="c" width="40" height="40"/> |
 |    push_swap     | 125% |   2   |  3w  | stack sort |                 | <img src="https://devicon-website.vercel.app/api/c/plain.svg" alt="c" width="40" height="40"/> |
 |       fdf        | 125% |   2   |  1M  | isometric  |                 | <img src="https://devicon-website.vercel.app/api/c/plain.svg" alt="c" width="40" height="40"/> |
