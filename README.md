@@ -2,7 +2,7 @@
 기술 노트 : [42프로젝트 기록들(notion)](https://letsgetitboi.notion.site/42-2c2aa02c94ba4b928a6c976f1b2bfc70)
 |      Project     |Score | Retry | Took |    Note    |       With      | Language |
 |:----------------:|:----:|:-----:|:----:|:----------:|:---------------:|:-:|
-|       libft      | 125% |   4   |  2w  |  lib func  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|       libft      | 125% |   4   |  2w  |  lib func  |                 | <img src="https://devicon-website.vercel.app/api/c/original.svg"></img> |
 |   get_next_line  | 125% |   1   |  2w  | fd, list   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   born2beroot    | 125% |   0   |  1w  |    VM      |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> |
 |     ft_printf    | 100% |   0   |  3d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
