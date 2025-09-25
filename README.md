@@ -3,15 +3,15 @@
 |      Project     |Score | Retry | Took |    Note    |       With      | Language |
 |:----------------:|:----:|:-----:|:----:|:----------:|:---------------:|:-:|
 |       libft      | 125% |   4   |  2w  |  lib func  |                 | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
-|   get_next_line  | 125% |   1   |  2w  | fd, list   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|   born2beroot    | 125% |   0   |  1w  |    VM      |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> |
-|     ft_printf    | 100% |   0   |  3d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|    push_swap     | 125% |   2   |  3w  | stack sort |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|       fdf        | 125% |   2   |  1M  | isometric  |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|      minitalk    | 125% |   1   |  5d  |  signal    |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|   philosophers   | 125% |   4   |  3w  | parallelism|                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|     minishell    | 100% |   2   |  2M  |shell, parse|     jeshin      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|     cub3d        | 100% |   2   |  1w  |raycasting  |     jeshin      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|   get_next_line  | 125% |   1   |  2w  | fd, list   |                 | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
+|   born2beroot    | 125% |   0   |  1w  |    VM      |                 | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
+|     ft_printf    | 100% |   0   |  3d  |            |                 | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
+|    push_swap     | 125% |   2   |  3w  | stack sort |                 | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
+|       fdf        | 125% |   2   |  1M  | isometric  |                 | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
+|      minitalk    | 125% |   1   |  5d  |  signal    |                 | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
+|   philosophers   | 125% |   4   |  3w  | parallelism|                 | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
+|     minishell    | 100% |   2   |  2M  |shell, parse|     jeshin      | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
+|     cub3d        | 100% |   2   |  1w  |raycasting  |     jeshin      | <img src="https://devicon-website.vercel.app/api/c/original.svg" alt="c" width="40" height="40"/> |
 |  CPP Modules/00  | 100% |   0   |  2d  |    basic   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/01  | 100% |   1   |  1d  |  reference |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |  CPP Modules/02  | 100% |   1   |  4d  | overloading|                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
