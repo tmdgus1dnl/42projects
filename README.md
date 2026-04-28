@@ -16,12 +16,12 @@
 | [born2beroot](./42_projects/born2beroot) | 125% | 0 | 1w | VM | | <img src="https://devicon-website.vercel.app/api/linux/original.svg" width="30"/> |
 | [ft_printf](./42_projects/ft_printf) | 100% | 0 | 3d | | | <img src="https://devicon-website.vercel.app/api/c/plain.svg" width="30"/> |
 | [push_swap](./42_projects/push_swap) | 125% | 2 | 3w | stack sort | | <img src="https://devicon-website.vercel.app/api/c/plain.svg" width="30"/> |
-| [fdf](./42_projects/fdf) | 125% | 2 | 1M | isometric | | <img src="https://devicon-website.vercel.app/api/c/plain.svg" width="30"/> |
+| [fdf](./42_projects/fdf) | 125% | 2 | 1m | isometric | | <img src="https://devicon-website.vercel.app/api/c/plain.svg" width="30"/> |
 | [minitalk](./42_projects/minitalk) | 125% | 1 | 5d | signal | | <img src="https://devicon-website.vercel.app/api/c/plain.svg" width="30"/> |
 | [philosophers](./42_projects/philosophers) | 125% | 4 | 3w | parallelism | | <img src="https://devicon-website.vercel.app/api/c/plain.svg" width="30"/> |
-| [minishell](./42_projects/minishell) | 100% | 2 | 2M | shell, parse | jeshin | <img src="https://devicon-website.vercel.app/api/c/plain.svg" width="30"/> |
+| [minishell](./42_projects/minishell) | 100% | 2 | 2m | shell, parse | jeshin | <img src="https://devicon-website.vercel.app/api/c/plain.svg" width="30"/> |
 | [cub3d](./42_projects/cub3d) | 100% | 2 | 1w | raycasting | jeshin | <img src="https://devicon-website.vercel.app/api/c/plain.svg" width="30"/> |
 | [CPP Modules](./42_projects/cpp) | 100% | - | - | 00 ~ 09 | | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" width="30"/> |
 | [inception](./42_projects/inception) | 100% | 1 | 3w | docker | | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" width="30"/> |
-| [webserv](./42_projects/webserv) | 110% | 1 | 1M | http | jeshin, jaeblee | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" width="30"/> |
-| [ft_transcendence](./42_projects/ft_transcendence) | 105% | 1 | 1M | web app | jaeblee, seungryk, heuchoi, dongeunk | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" width="30"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="30"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" width="30"/> |
+| [webserv](./42_projects/webserv) | 110% | 1 | 1m | http | jeshin, jaeblee | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" width="30"/> |
+| [ft_transcendence](./42_projects/ft_transcendence) | 105% | 1 | 1m | web app | jaeblee, seungryk, heuchoi, dongeunk | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" width="30"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="30"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" width="30"/> |
